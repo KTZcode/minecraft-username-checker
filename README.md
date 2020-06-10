@@ -3,7 +3,7 @@
 This simple Python script will check, from a list of names, if any of them are available. If any are it will open them in name.mc on a new tab in your webbrowser.
 
 Requirements: 
-Python 3\n
+Python 3, 
 Python requests module
 
 usage:
