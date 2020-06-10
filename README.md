@@ -4,7 +4,7 @@ This simple Python script will check, from a list of names, if any of them are a
 
 Requirements: 
 Python 3, 
-Python requests module
+Python requests module (install with )
 
 usage:
 put a list of names in the "names.txt" file and run "username_checker.py"
