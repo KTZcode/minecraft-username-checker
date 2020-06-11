@@ -2,7 +2,14 @@ import requests
 import json
 import webbrowser
 from time import sleep
+import json
 
+configs = json.load(open("config.json"))
+if configs["open_name_in_namemc"] == True:
+    print(f"names will be opening in namemc this session")
+if configs["open_name_in_namemc"] == False:
+    print(f"names will not be opening in namemc this session")
+sleep(1)
 failed_names = 0
 available_names = 0
 name_in = open("names.txt", "r")
@@ -23,15 +30,16 @@ for name in converted_names:
         elif username_json != {'error': 'TooManyRequestsException', 'errorMessage': 'The client has sent too many requests within a certain amount of time'}:
             print(username_json)
             failed_names += 1
-    except json.decoder.JSONDecodeError:            
+    except json.decoder.JSONDecodeError:
         print(f"{name} is available")
         name_out.write(f"{name}\n")
-        webbrowser.open(f"https://namemc.com/search?q={name}")
+        if configs["open_name_in_namemc"] == True:
+            webbrowser.open(f"https://namemc.com/search?q={name}")
         available_names += 1
 
 
 success_rate = f"{available_names / (available_names + failed_names) * 100}%"
 print(f"{success_rate} is the success rate")
-name_out.write(f"------ you were {success_rate} succesful this time ------") 
+name_out.write(f"------ you were {success_rate} succesful this time ------")
 
 name_out.close()
