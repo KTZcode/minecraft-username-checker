@@ -14,8 +14,8 @@ This simple Python script will check, from a list of names, if any of them are a
 -  run `username_checker.py` or `experimental_username_checker.py` and it will output to `namelog.txt`.
 
 ### Other info:
-`experimental_username_checker.py` will require [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) to run because it will scrape data (*True* availability and searches / month) from [namemc](https://namemc.com/), print it out, and write it in `namelog.txt`.
-If you have any issues with the script please open an issue and I will try to get back as soon as possible. 
+`experimental_username_checker.py` will require [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) to run because it will scrape data (*True* availability and searches / month) from [namemc](https://namemc.com/), print it out, and write it in `namelog.txt`. It *is* slower but I recommend it when checking a large number of names.
+If you have any issues with the script please open an issue and I will try to get back as soon as possible.
 
 #### Resources:
 For finding words to check I recommend [this](https://github.com/dwyl/english-words) GitHub repository because there are a *TON* of words and they are already correctly formatted.
