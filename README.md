@@ -3,7 +3,7 @@
 This simple Python script will check, from a list of names, if any of them are available. If any are, it will open them in [namemc.com](https://namemc.com/) (if you want them to) on a new tab in your web browser for you to confirm if they are truly available or just "available soon."
 
 ### Requirements:
-- [Python](https://www.python.org/)
+- [Python 3](https://www.python.org/)
 - [Python requests module](https://requests.readthedocs.io/en/master/)
 - [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) (for `experimental_username_checker.py`)
 

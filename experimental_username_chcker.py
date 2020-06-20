@@ -78,7 +78,7 @@ def full_loop(name):
             print("waited for 10 minutes")
             sleep(1)
         elif username_json != {'error': 'TooManyRequestsException', 'errorMessage': 'The client has sent too many requests within a certain amount of time'}:
-            print(f"{username_json['name']} is unavailable")
+            print(f"{name} is unavailable")
             failed_names += 1
     except json.decoder.JSONDecodeError:
         name_is_available(name)
