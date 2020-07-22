@@ -7,6 +7,8 @@ This simple Python script will check, from a list of names, if any of them are a
 - [Python requests module](https://requests.readthedocs.io/en/master/)
 - [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) (for `experimental_username_checker.py`)
 
+Just run `pip install -r requirements.txt` to install those.
+
 
 ### usage:
 - put a list of names you want to check in the "names.txt" file (there is no limit but if you have it open the names on namemc you might run out of ram.)
