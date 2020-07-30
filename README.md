@@ -40,4 +40,5 @@ because you don't want that many names opening in namemc, most of the names will
 #### Resources:
 For finding words to check I recommend [this](https://github.com/dwyl/english-words) GitHub repository because there are a *TON* of words and they are already correctly formatted.
 
-> Note: I have little experience with programming and this may be a very inefficient way of doing this, I don't know.
+
+> Note: I have little experience with programming and this may be a very inefficient way of doing this, I don't know. you can join my discord [here](https://discord.gg/jZm4qNF)
