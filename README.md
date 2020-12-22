@@ -1,3 +1,5 @@
+# OUTDATED | NO LONGER WORKS 
+
 # minecraft username checker
 
 This simple Python script will check, from a list of names, if any of them are available. If any are, it will open them in [namemc.com](https://namemc.com/) (if you want them to) on a new tab in your web browser for you to confirm if they are truly available or just "available soon."
